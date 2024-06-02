@@ -1,8 +1,15 @@
+:root{
+    --body-fon:#fff;
+    --blue:#4158d0;
+    --pink:#c850c0;
+    --yellow:#ffcc70;
+}
+
 body {
     margin: 0;
-
+    
     font-size: 18px;
-    color: #333;
+    
 
     font-family: sans-serif;
     line-height: 1.5;
@@ -13,6 +20,7 @@ h1 {
     margin-bottom: 10px;
     font-size: 60px;
     text-align: center;
+    
 }
 
 h2 {
@@ -28,6 +36,7 @@ main {
 }
 
 section {
+    
     margin: 50px 0px 50px;
     padding: 0px 50px 0px 50px;
 }
@@ -68,3 +77,12 @@ a{
 a:hover {
     color: #7ca3c9;
     transition: 0.7s;}
+
+[gradient]{
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    background: linear-gradient(45deg, var(--blue) 0%, var(--pink) 40%, var(--yellow) 90%);
+    color: var(--body-fon);
+    font-weight: bold;
+}
